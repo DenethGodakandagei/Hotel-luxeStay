@@ -30,18 +30,20 @@ export const RoomReview = () => {
       >
         {(close) => (
           <div className="modal overlay">
-            <div className="popupContent">
+            <div className=" m-[30px] sm:m-10px">
               <header>
-                <div className="flex justify-end">
+                <div className="flex justify-between">
+                  <div className="flex">
                   <img src={logo} style={{ width: "70px" }} />
                   <span className="mt-6 text-orange-400">LuxeStay</span>
-                  <div className="flex justify-end">
+                  </div>
+                  <div className="flex justify-between">
                     <button
-                      className="m-3 bg-red-400 hover:bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                      className="bg-red-600 hover:bg-red-500 text-white font-bold  rounded focus:outline-none focus:shadow-outline w-[18x] h-[18px] mt-5"
                       onClick={() => close()}
                     >
                       <svg
-                        class="h-4 w-4  "
+                        class="h-5 w-5 "
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -62,14 +64,14 @@ export const RoomReview = () => {
               </header>
               <div className="container mx-auto">
                 <div class="popup   flex justify-center grid lg:grid-cols-2 gap-6">
-                  <div className="max-w-lg ">
+                  <div className="max-w-[500px] p-1 m-2  flex justify-center ">
                     <img
-                      class="object-cover w-full rounded m-5  "
+                      class="object-cover w-full rounded  "
                       src={Room1}
                       alt="/"
                     />
                   </div>
-                  <div className="p-3 m-3">
+                  <div className="p-1 ">
                     <h5 class=" text-2xl font-bold leading-none  justify-center my-3 ">
                       Luxury Room
                     </h5>
@@ -77,25 +79,25 @@ export const RoomReview = () => {
                       Immerse yourself in opulence with our elegantly designed
                       and lavishly appointed Luxury Rooms.
                     </span>
-                    <ul className="list-disc p-5">
-                      <li className="p-3">
+                    <ul className="list-disc pl-4 text-justify ">
+                      <li className="p-1 sm:p-3">
                         Indulge in the lap of luxury with our opulent Luxury
                         Rooms.
                       </li >
-                      <li className="p-3">
+                      <li className="p-1 sm:p-3">
                         These meticulously designed spaces offer a harmonious
                         blend of modern elegance and timeless charm.
                       </li>
-                      <li className="p-3">
+                      <li className="p-1 sm:p-3">
                         Immerse yourself in the plush comfort of a king-sized
                         bed, adorned with premium linens.
                       </li>
-                      <li className="p-3">
+                      <li className="p-1 sm:p-3">
                         Enjoy the convenience of modern amenities, including a
                         large flat-screen TV, a well-stocked mini-bar, and
                         complimentary high-speed Wi-Fi.
                       </li>
-                      <li className="p-3">
+                      <li className="p-1 sm:p-3">
                         The spacious en-suite bathroom boasts exquisite marble
                         fixtures, a rejuvenating rain shower, and deluxe
                         toiletries, ensuring a truly lavish experience.
