@@ -31,18 +31,20 @@ export const RoomReview2 = () => {
       >
         {(close) => (
           <div className="modal overlay">
-            <div className="popupContent">
-              <header>
-                <div className="flex justify-end">
+            <div className="m-[30px] sm:m-10px">
+            <header>
+                <div className="flex justify-between">
+                  <div className="flex">
                   <img src={logo} style={{ width: "70px" }} />
                   <span className="mt-6 text-orange-400">LuxeStay</span>
-                  <div className="flex justify-end">
+                  </div>
+                  <div className="flex justify-between">
                     <button
-                      className="m-3 bg-red-400 hover:bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                      className="bg-red-600 hover:bg-red-500 text-white font-bold  rounded focus:outline-none focus:shadow-outline w-[18x] h-[18px] mt-5"
                       onClick={() => close()}
                     >
                       <svg
-                        class="h-4 w-4  "
+                        class="h-5 w-5 "
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -63,32 +65,32 @@ export const RoomReview2 = () => {
               </header>
               <div className="container mx-auto">
                 <div class="popup   flex justify-center grid lg:grid-cols-2 gap-6">
-                  <div className="max-w-lg ">
+                  <div className="max-w-[500px] p-1 m-2  flex justify-center">
                     <img
-                      class="object-cover w-full rounded m-5  "
+                      class="object-cover w-full rounded  "
                       src={Room2}
                       alt="/"
                     />
                   </div>
-                  <div className="p-3 m-3">
-                    <h5 class=" text-2xl font-bold leading-none  justify-center my-3 ">
+                  <div className="p-1">
+                    <h5 class="  text-2xl font-bold leading-none  justify-center my-3 ">
                       Family Room
                     </h5>
                     <span class="  leading-none  text-orange-400">
                     Create lasting memories with comfortable accommodations
                     perfect for the whole family.
                     </span>
-                    <ul className="list-disc p-5">
-                      <li className="p-3">
+                    <ul className="list-disc pl-4 text-justify ">
+                      <li className="p-1 sm:p-3">
                       Perfect for creating lasting memories with your loved ones, our spacious Family Rooms provide ample space and comfort for the entire family.
                       </li >
-                      <li className="p-3">
+                      <li className="p-1 sm:p-3">
                       Featuring multiple beds or interconnected rooms, these accommodations offer both privacy and togetherness.
                       </li>
-                      <li className="p-3">
+                      <li className="p-1 sm:p-3">
                       Enjoy the convenience of amenities such as a TV with a variety of channels, a mini-fridge, and complimentary Wi-Fi. 
                       </li>
-                      <li className="p-3">
+                      <li className="p-1 sm:p-3">
                       The tastefully decorated rooms provide a warm and inviting ambiance, ensuring a delightful stay for families of all sizes.
                       </li>
                       
