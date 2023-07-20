@@ -3,7 +3,7 @@ import about from "../assets/About.jpg";
 
 export const About = () => {
   return (
-    <div className="About" id="about">
+    <section className="About" id="about">
       <div class="container my-24 mx-auto md:px-6">
         <section class="background-radial-gradient mb-32">
           <div class="px-6 py-12 text-center md:px-12 lg:text-left">
@@ -23,18 +23,16 @@ export const About = () => {
                   </p>
                 </div>
                 <div class=" grid justify-items-center item-center container mb-12 lg:mb-0">
-                  <div
-                    class=" max-w-lg max-h-lg relative w-full overflow-hidden rounded-lg shadow-lg "
-                   
-                  >
-                    <img src={about}  className="max-w-lg  max-h-lg reveal"/>
-                  </div>
+                  <img
+                    src={about}
+                    className=" reveal sm:h-[55vh] relative w-full overflow-hidden rounded-lg shadow-lg "
+                  />
                 </div>
               </div>
             </div>
           </div>
         </section>
       </div>
-    </div>
+    </section>
   );
 };
