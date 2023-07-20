@@ -18,56 +18,56 @@ const Rooms = () => {
             </h1>
           </div>
           <div className="flex flex-wrap   justify-center">
-          <div class="card bg-white border border-wight-200 rounded-lg shadow bg-white rounded-lg  transform hover:translate-y-2 hover:shadow-xl transition duration-300 m-5 reveal border-blue-300">
+          <div class="card bg-white border border-wight-200 rounded-lg shadow bg-white rounded-lg  transform hover:translate-y-2 hover:shadow-xl transition duration-300 m-5 reveal border-gray-300">
               <img class="rounded-t-lg" src={Room1} alt="" />
-            <div class="p-5">
+            <div class="">
               <h5 class=" text-2xl font-bold leading-none">Luxury Room</h5>
-              <span class="  leading-none">
+              <p class="  leading-none text-gray-400 ">
                 Immerse yourself in opulence with our elegantly designed and
                 lavishly appointed Luxury Rooms.
-              </span>
+              </p>
              <div class="p-2 ">
                 <div class="text-lg  font-light">$109 / night</div>
               </div>
               <RoomReview />
             </div>
           </div>
-          <div class="card bg-white border border-wight-200 rounded-lg shadow bg-white rounded-lg  transform hover:translate-y-2 hover:shadow-xl transition duration-300 m-5 reveal border-blue-300">
+          <div class="card bg-white border border-wight-200 rounded-lg shadow bg-white rounded-lg  transform hover:translate-y-2 hover:shadow-xl transition duration-300 m-5 reveal border-gray-300">
               <img class="rounded-t-lg" src={Room2} alt="" />
             <div class="p-5">
               <h5 class=" text-2xl font-bold leading-none">Family Room</h5>
-              <span class=" leading-none">
+              <p class=" leading-none  text-gray-400 ">
               Create lasting memories with comfortable accommodations
                     perfect for the whole family.
-              </span>
+              </p>
              <div class="p-2">
                 <div class="text-lg  font-light">$69 / night</div>
               </div>
               <RoomReview2 />
             </div>
           </div>
-          <div class="card bg-white border border-wight-200 rounded-lg shadow bg-white rounded-lg  transform hover:translate-y-2 hover:shadow-xl transition duration-300 m-5 reveal border-blue-300">
+          <div class="card bg-white border border-wight-200 rounded-lg shadow bg-white rounded-lg  transform hover:translate-y-2 hover:shadow-xl transition duration-300 m-5 reveal border-gray-300">
               <img class="rounded-t-lg" src={Room3} alt="" />
             <div class="p-5">
               <h5 class=" text-2xl font-bold leading-none">Couple Room</h5>
-              <span class="  leading-none">
+              <p class="  leading-none  text-gray-400 ">
               Ignite romance in our intimate and enchanting Couple Rooms,
                     designed for the perfect romantic getaway.
-              </span>
+              </p>
              <div class="p-2 ">
                 <div class="text-lg  font-light">$89 / night</div>
               </div>
               <RoomReview3 />
             </div>
           </div>
-          <div class="card bg-white border border-wight-200 rounded-lg shadow bg-white rounded-lg  transform hover:translate-y-2 hover:shadow-xl transition duration-300 m-5 reveal border-blue-300">
+          <div class="card bg-white border border-wight-200 rounded-lg shadow bg-white rounded-lg  transform hover:translate-y-2 hover:shadow-xl transition duration-300 m-5 reveal border-gray-300">
               <img class="rounded-t-lg" src={Room4} alt="" />
             <div class="p-5">
               <h5 class=" text-2xl font-bold leading-none">Double Room</h5>
-              <span class="  leading-none916541">
+              <p className=" text-gray-400 ">
               Enjoy affordable comfort in our cozy Double Rooms, offering
                     a tranquil ambiance for a restful stay.
-              </span>
+              </p>
              <div class="p-2">
                 <div class="text-lg  font-light">$79 / night</div>
               </div>
